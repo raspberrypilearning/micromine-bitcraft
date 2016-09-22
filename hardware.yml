@@ -1,2 +1,6 @@
 - name: micro:bit
   img: micro-bit
+- name: usb-microusb
+  img: usb-microusb
+- name: crocodile-clips
+  img: crocodile-clips
