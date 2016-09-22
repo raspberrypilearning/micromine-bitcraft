@@ -78,7 +78,8 @@ Next you will use jumper cables and crocodile clips to connect your micro:bit to
 1. Clip the crocodile clip to the male end of the jumper wire
 1. Clip the other end of the crocodile clip to pin `0` on the micro:bit
 1. Then repeat the steps above with `GPIO 27` on the Raspberry Pi (which is next to GPIO 17) connecting to pin `1` on the micro:bit.
-
+
+
 	![](images/microbit-pi-pins-connect.png)
 
 
