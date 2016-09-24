@@ -6,7 +6,7 @@ Use your micro:bit to help (or sabotage!) Steve in Minecraft by connecting the p
 
 1. Open `Mu` from the main menu under `Programming`.
 
-1. A new window should open up that looks like this:
+1. A new window which looks like this should open up:
 
 	![mu screenshot](images/screen1.png)
 
