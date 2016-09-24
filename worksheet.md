@@ -12,7 +12,7 @@ Use your micro:bit to help (or sabotage!) Steve in Minecraft by connecting the p
 
 ## Plugging in your micro:bit
 
-The micro:bit has a micro USB port that you can use to connect it to your Raspberry Pi. This will provide a power *and* data connection.
+The micro:bit has a micro USB port that you can use to connect it to your Raspberry Pi. This will provide a power and data connection.
 
 1. Connect your Raspberry Pi to the micro:bit using a USB A-to-micro-B cable, as shown below:
 
