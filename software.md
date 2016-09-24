@@ -1,12 +1,12 @@
 # Software installation
 
-To install the software open LXTerminal and type:
+To install the software open a terminal window and type:
 
 ```bash
 sudo apt-get update && sudo apt-get install mu -y
 ```
 
-You'll also need the Python Scratch library. You can install this by typing the following into LXTerminal:
+You'll also need the Python Scratch library. You can install this by typing the following into the terminal:
 
 ```bash
 sudo pip3 install --pre scratch
