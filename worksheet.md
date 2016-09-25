@@ -147,7 +147,7 @@ Remember that we added some code to detect when button A on your micro:bit was p
 	```python
     pin1 = DigitalInputDevice(27)
     ```
-1. At the bottom of your program, inside the while True loop add the code so that if `pin 1` is on or `(1)` it sets the block below Steve to AIR `(0)`:
+1. At the bottom of your program, inside the `while True` loop, add the code shown so that if `pin 1` is on or `(1)` it sets the block below Steve to Air `(0)`:
 
 	```python
     if pin1.value == 1:
