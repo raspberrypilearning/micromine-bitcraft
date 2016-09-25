@@ -2,7 +2,7 @@
 
 Use your micro:bit to help (or sabotage!) Steve in Minecraft by connecting the pins on your micro:bit to the General-Purpose Input/Output (GPIO) pins on your Raspberry Pi using some cables and crocodile clips. Then, using Python, write programs to detect motion from the micro:bit's accelerometer and make Steve shake in Minecraft!
 
-## Starting mu
+## Starting Mu
 
 1. Open **Mu** from the main menu under **Programming**.
 
@@ -10,7 +10,7 @@ Use your micro:bit to help (or sabotage!) Steve in Minecraft by connecting the p
 
 	![mu screenshot](images/screen1.png)
 
-## Plugging in your micro:bit
+## Connecting your micro:bit
 
 The micro:bit has a micro USB port that you can use to connect it to your Raspberry Pi. This will provide a power and data connection.
 
