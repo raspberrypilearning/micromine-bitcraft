@@ -4,7 +4,7 @@ Use your micro:bit to help (or sabotage!) Steve in Minecraft by connecting the p
 
 ## Starting mu
 
-1. Open `Mu` from the main menu under `Programming`.
+1. Open **Mu** from the main menu under **Programming**.
 
 1. A new window will open up; it should look like this:
 
@@ -22,11 +22,11 @@ The micro:bit has a micro USB port that you can use to connect it to your Raspbe
 
 	![screen2](images/screen2.png)
 
-1. This dialogue box might pop up a few times while you're playing with the micro:bit. You can simply click on `Cancel` when it does.
+1. This dialogue box might pop up a few times while you're playing with the micro:bit. You can simply click on **Cancel** when it does.
 
 ## Write a program to make your micro:bit angry
 
-1. Click `New` and type the following code into the editor.
+1. Click **New** and type the following code into the editor.
 
 	```python
 	from microbit import *
@@ -40,7 +40,7 @@ The micro:bit has a micro USB port that you can use to connect it to your Raspbe
     
     Here you are using a `while True:` loop that will repeat the code inside it until you quit the program. Inside the loop, you are setting an `if else` condition: if the accelerometer on the micro:bit detects shaking, then it will display an angry face on the micro:bit LEDs. Otherwise, it will show a happy face.
                 
-1. Click the `Flash` icon on the menu to transfer your program on your micro:bit.
+1. Click the **Flash** icon on the menu to transfer your program on your micro:bit.
 
 1. When the yellow light on the back of your micro:bit stops flashing your program will run and you should see a happy face on your micro:bit - until it’s shaken!
 
@@ -49,7 +49,7 @@ The micro:bit has a micro USB port that you can use to connect it to your Raspbe
 ## Buttons and pins
 Now you need to finish your micro:bit program so that it turns the pins on and off when it's shaken or when the button is pressed.
 
-1. Go back to `Mu` and modify your program so that it turns the pins on `(1)` and off `(0)` when shaken and when button A is pressed.
+1. Go back to **Mu** and modify your program so that it turns the pins on `(1)` and off `(0)` when shaken and when button A is pressed.
 
 	```python
 	from microbit import *
@@ -68,16 +68,16 @@ Now you need to finish your micro:bit program so that it turns the pins on and o
     ```
 	
             
-1. Now click `Flash` to transfer your program to your micro:bit.
+1. Now click **Flash** to transfer your program to your micro:bit.
 1. Test your program. The letter `A` should appear on the micro:bit LEDs when the button is pressed.
 
 ## Connect it to your Raspberry Pi
 Next you will use jumper cables and crocodile clips to connect your micro:bit to a Raspberry Pi: you will connect two of the GPIO pins on the Raspberry Pi to the `0` and `1` pins on the micro:bit.
 
-1. Connect one female-to-male jumper wire to `GPIO 17` pin on the Raspberry Pi
+1. Connect one female-to-male jumper wire to the GPIO 17 pin on the Raspberry Pi
 1. Clip the crocodile clip to the male end of the jumper wire
-1. Clip the other end of the crocodile clip to pin `0` on the micro:bit
-1. Then repeat the steps above with `GPIO 27` on the Raspberry Pi (which is next to GPIO 17) connecting to pin `1` on the micro:bit.
+1. Clip the other end of the crocodile clip to pin 0 on the micro:bit
+1. Then repeat the steps above with GPIO 27 on the Raspberry Pi (which is next to GPIO 17), connecting it to pin 1 on the micro:bit.
 
 
 	![](images/microbit-pi-pins-connect.png)
@@ -87,11 +87,11 @@ Next you will use jumper cables and crocodile clips to connect your micro:bit to
 
 You now need to create your Minecraft program to shake Steve. To do this you will need to create another Python program, this time using Pyton 3 (IDLE3).
 
-1. First open Minecraft Pi on the Raspberry Pi by clicking on **Menu**, **Games** and **Minecraft: Pi Edition** to run the game.
-1. Click `Start Game`, then click `Create New` (or choose an existing one) to enter a world.
-1. Press `ESC` to go back to the Minecraft menu but leave the game playing.
-1. Open `Python 3 (IDLE3)` from the programming menu.
-1. Click on `File` and `New Window` to create a new program and save it as `mc_micro.py`.
+1. First open Minecraft Pi on the Raspberry Pi by clicking on **Menu**, **Games**, and **Minecraft: Pi Edition** to run the game.
+1. Click **Start Game**, then click **Create New** (or choose an existing one) to enter a world.
+1. Press **ESC** to go back to the Minecraft menu while leaving the game playing.
+1. Open Python 3 (IDLE3) from the programming menu.
+1. Click on **File** and **New Window** to create a new program and save it as `mc_micro.py`.
 1. Start your program by importing all the modules you will need.
 
 	```python
@@ -99,9 +99,9 @@ You now need to create your Minecraft program to shake Steve. To do this you wil
     from gpiozero import DigitalInputDevice
     from time import sleep
     ```
-    Here you are using three different modules. One to connect to Minecraft Pi, one to program the gpio pins, and one to add pauses or sleeps.
+    Here you are using three different modules: one to connect to Minecraft Pi, one to program the GPIO pins, and one to add pauses or sleeps.
 
-1. Underneath create a connection to Minecraft by typing:
+1. Underneath, create a connection to Minecraft by typing:
 	
 	```python
 	mc = Minecraft.create()
