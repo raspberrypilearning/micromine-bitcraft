@@ -137,7 +137,7 @@ You now need to create your Minecraft program to shake Steve. To do this you wil
         
     After getting Steve's position, if `pin0` is detected as being on or `(1)` then the code instructs Minecraft to add `0.5` to Steve’s height on the `(y)` coordinate. This will look like Steve is moving. 
 
-1. Run your program by clicking `Run` and `Run Module`. Shake your micro:bit and Steve will be shaken in Minecraft.
+1. Run your program by clicking **Run** and **Run Module**. Shake your micro:bit and Steve will be shaken in Minecraft.
 
 ## Make blocks disappear 
 Remember that we added some code to detect when button A on your micro:bit was pressed? Let's use that button press to make blocks disappear from Minecraft!
