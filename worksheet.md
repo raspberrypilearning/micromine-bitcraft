@@ -49,7 +49,7 @@ The micro:bit has a micro USB port that you can use to connect it to your Raspbe
 ## Buttons and pins
 Now you need to finish your micro:bit program so that it turns the pins on and off when it's shaken or when the button is pressed.
 
-1. Go back to **Mu** and modify your program so that it turns the pins on `(1)` and off `(0)` when shaken and when button A is pressed.
+1. Go back to Mu and modify your program so that it turns the pins on `(1)` and off `(0)` when shaken and when button A is pressed.
 
 	```python
 	from microbit import *
@@ -116,9 +116,9 @@ You now need to create your Minecraft program to shake Steve. To do this you wil
 
 1. Save and run your program by clicking `Run` and `Run Module`. You should see your message appear in the Minecraft chat window.
 
-	**Note: Any errors will be displayed in the Python Shell in red. If you get an error check your code carefully. The message disappears from Minecraft after 10 seconds: if you miss it, re-run your program.**
+	**Note: Any errors will be displayed in the Python shell in red. If you get an error, check your code carefully. The message disappears from Minecraft after ten seconds: if you miss it, re-run your program.**
 
-1. Next, create a pin which is connected to `GPIO 17` on the Raspberry Pi and `pin 0` on the micro:bit by typing:
+1. Next, create a pin which is connected to GPIO 17 on the Raspberry Pi and pin 0 on the micro:bit by typing:
 
 	```python
 	pin0 = DigitalInputDevice(17)
@@ -142,7 +142,7 @@ You now need to create your Minecraft program to shake Steve. To do this you wil
 ## Make blocks disappear 
 Remember that we added some code to detect when button A on your micro:bit was pressed? Let's use that button press to make blocks disappear from Minecraft!
 
-1. Underneath the lines of code you have written to connect `GPIO 17` to micro:bit `pin 0`, add another line of code to connect `GPIO 27` to `pin 1` by typing:
+1. Underneath the lines of code you have written to connect GPIO 17 to micro:bit pin 0, add another line of code to connect `GPIO 27` to `pin 1` by typing:
 
 	```python
     pin1 = DigitalInputDevice(27)
@@ -157,7 +157,7 @@ Remember that we added some code to detect when button A on your micro:bit was p
     
     ![](images/idle3-code.png)
 
-1. Run your program, press the `A` button on your micro:bit and see the blocks below Steve disappear.
+1. Run your program, press the A button on your micro:bit and see the blocks below Steve disappear.
 
 	![](images/steve-in-a-hole.png)
 
