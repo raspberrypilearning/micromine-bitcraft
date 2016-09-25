@@ -68,11 +68,11 @@ Now you need to finish your micro:bit program so that it turns the pins on and o
     ```
 	
             
-1. Now click `Flash` to transfer your program on your micro:bit.
+1. Now click `Flash` to transfer your program to your micro:bit.
 1. Test your program. The letter `A` should appear on the micro:bit LEDs when the button is pressed.
 
 ## Connect it to your Raspberry Pi
-Next you will use jumper cables and crocodile clips to connect your micro:bit to a Raspberry Pi - you will connect 2 of the GPIO pins on the Raspberry Pi to the `0` and `1` pins on the micro:bit.
+Next you will use jumper cables and crocodile clips to connect your micro:bit to a Raspberry Pi: you will connect two of the GPIO pins on the Raspberry Pi to the `0` and `1` pins on the micro:bit.
 
 1. Connect one female-to-male jumper wire to `GPIO 17` pin on the Raspberry Pi
 1. Clip the crocodile clip to the male end of the jumper wire
@@ -116,7 +116,7 @@ You now need to create your Minecraft program to shake Steve. To do this you wil
 
 1. Save and run your program by clicking `Run` and `Run Module`. You should see your message appear in the Minecraft chat window.
 
-	*Note: Any errors will be displayed in the Python Shell in red. If you get an error check your code carefully. The message disappears from Minecraft after 10 seconds, if you miss it, re-run your program.*
+	**Note: Any errors will be displayed in the Python Shell in red. If you get an error check your code carefully. The message disappears from Minecraft after 10 seconds: if you miss it, re-run your program.**
 
 1. Next, create a pin which is connected to `GPIO 17` on the Raspberry Pi and `pin 0` on the micro:bit by typing:
 
