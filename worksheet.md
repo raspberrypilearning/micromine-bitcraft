@@ -38,13 +38,13 @@ The micro:bit has a micro USB port that you can use to connect it to your Raspbe
             display.show(Image.HAPPY)
     ```
     
-    Here you are using a `while True:` loop that will repeat the code inside it until you quit the program. Inside the loop, you are setting an `if else` condition: if the accerlerometer on the micro:bit detects shaking, then it will display an angry face on the micro:bit LEDs, otherwise it will show a happy face.
+    Here you are using a `while True:` loop that will repeat the code inside it until you quit the program. Inside the loop, you are setting an `if else` condition: if the accelerometer on the micro:bit detects shaking, then it will display an angry face on the micro:bit LEDs. Otherwise, it will show a happy face.
                 
 1. Click the `Flash` icon on the menu to transfer your program on your micro:bit.
 
 1. When the yellow light on the back of your micro:bit stops flashing your program will run and you should see a happy face on your micro:bit - until it’s shaken!
 
-*Note: Any errors will be scrolled on your micro:bit’s leds. If you get an error check your code carefully. Capital letters are important True is different to true.*
+**Note: Any errors will be scrolled on your micro:bit’s LEDs. If you get an error, check your code carefully. Capital letters are important: `True` is different from `true`.**
 
 ## Buttons and pins
 Now you need to finish your micro:bit program so that it turns the pins on and off when it's shaken or when the button is pressed.
