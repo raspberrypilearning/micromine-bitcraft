@@ -18,7 +18,7 @@ The micro:bit has a micro USB port that you can use to connect it to your Raspbe
 
 	![usb setup](images/usb.png)
 
-1. You'll know that the micro:bit has connected to your Raspberry Pi, because a dialogue box should pop up like the one below:
+1. You'll know that the micro:bit has connected to your Raspberry Pi, because a dialogue box like the one below should pop up:
 
 	![screen2](images/screen2.png)
 
