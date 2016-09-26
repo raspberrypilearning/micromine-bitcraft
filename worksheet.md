@@ -26,7 +26,7 @@ The micro:bit has a micro USB port that you can use to connect it to your Raspbe
 
 ## Write a program to make your micro:bit angry
 
-1. Click **New** and type the following code into the editor.
+1. Click **New** and type the following code into the editor:
 
 	```python
 	from microbit import *
@@ -40,16 +40,16 @@ The micro:bit has a micro USB port that you can use to connect it to your Raspbe
     
     Here you are using a `while True:` loop that will repeat the code inside it until you quit the program. Inside the loop, you are setting an `if else` condition: if the accelerometer on the micro:bit detects shaking, then it will display an angry face on the micro:bit LEDs. Otherwise, it will show a happy face.
                 
-1. Click the **Flash** icon on the menu to transfer your program on your micro:bit.
+1. Click the **Flash** icon on the menu to transfer your program to your micro:bit.
 
-1. When the yellow light on the back of your micro:bit stops flashing your program will run and you should see a happy face on your micro:bit - until it’s shaken!
+1. When the yellow light on the back of your micro:bit stops flashing, your program will run and you should see a happy face on your micro:bit - until it’s shaken!
 
 **Note: Any errors will be scrolled on your micro:bit’s LEDs. If you get an error, check your code carefully. Capital letters are important: `True` is different from `true`.**
 
 ## Buttons and pins
 Now you need to finish your micro:bit program so that it turns the pins on and off when it's shaken or when the button is pressed.
 
-1. Go back to Mu and modify your program so that it turns the pins on `(1)` and off `(0)` when shaken and when button A is pressed.
+1. Go back to Mu and modify your program so that it turns the pins on `(1)` and off `(0)` when shaken and when button A is pressed:
 
 	```python
 	from microbit import *
@@ -72,7 +72,8 @@ Now you need to finish your micro:bit program so that it turns the pins on and o
 1. Test your program. The letter `A` should appear on the micro:bit LEDs when the button is pressed.
 
 ## Connect it to your Raspberry Pi
-Next you will use jumper cables and crocodile clips to connect your micro:bit to a Raspberry Pi: you will connect two of the GPIO pins on the Raspberry Pi to the `0` and `1` pins on the micro:bit.
+
+Next, you will use jumper cables and crocodile clips to connect your micro:bit to a Raspberry Pi: you will connect two of the GPIO pins on the Raspberry Pi to the `0` and `1` pins on the micro:bit.
 
 1. Connect one female-to-male jumper wire to the GPIO 17 pin on the Raspberry Pi
 1. Clip the crocodile clip to the male end of the jumper wire
@@ -85,14 +86,14 @@ Next you will use jumper cables and crocodile clips to connect your micro:bit to
 
 ## Shake Steve in Minecraft
 
-You now need to create your Minecraft program to shake Steve. To do this you will need to create another Python program, this time using Pyton 3 (IDLE3).
+You now need to create your Minecraft program to shake Steve. To do this you will need to create another Python program, this time using Python 3 (IDLE3).
 
-1. First open Minecraft Pi on the Raspberry Pi by clicking on **Menu**, **Games**, and **Minecraft: Pi Edition** to run the game.
+1. First, open Minecraft Pi on the Raspberry Pi by clicking on **Menu**, **Games**, and **Minecraft: Pi Edition** to run the game.
 1. Click **Start Game**, then click **Create New** (or choose an existing one) to enter a world.
 1. Press **ESC** to go back to the Minecraft menu while leaving the game playing.
-1. Open Python 3 (IDLE3) from the programming menu.
+1. Open Python 3 (IDLE3) from the Programming menu.
 1. Click on **File** and **New Window** to create a new program and save it as `mc_micro.py`.
-1. Start your program by importing all the modules you will need.
+1. Start your program by importing all the modules you will need:
 
 	```python
 	from mcpi.minecraft import Minecraft
@@ -112,7 +113,7 @@ You now need to create your Minecraft program to shake Steve. To do this you wil
 	```python
 	mc.postToChat("Micromine bitcraft")
 	```
-	This will let you know that your program is working. If you do not see this message when you run your program then you will know something is wrong.
+	This will let you know that your program is working. If you don't see this message when you run your program, then you will know something is wrong.
 
 1. Save and run your program by clicking `Run` and `Run Module`. You should see your message appear in the Minecraft chat window.
 
@@ -140,6 +141,7 @@ You now need to create your Minecraft program to shake Steve. To do this you wil
 1. Run your program by clicking **Run** and **Run Module**. Shake your micro:bit and Steve will be shaken in Minecraft.
 
 ## Make blocks disappear 
+
 Remember that we added some code to detect when button A on your micro:bit was pressed? Let's use that button press to make blocks disappear from Minecraft!
 
 1. Underneath the lines of code you have written to connect GPIO 17 to micro:bit pin 0, add another line of code to connect `GPIO 27` to `pin 1` by typing:
@@ -147,6 +149,7 @@ Remember that we added some code to detect when button A on your micro:bit was p
 	```python
     pin1 = DigitalInputDevice(27)
     ```
+    
 1. At the bottom of your program, inside the `while True` loop, add the code shown so that if `pin 1` is on or `(1)` it sets the block below Steve to Air `(0)`:
 
 	```python
@@ -162,6 +165,7 @@ Remember that we added some code to detect when button A on your micro:bit was p
 	![](images/steve-in-a-hole.png)
 
 ## What next?
-- Can you modify the micro:bit and Minecraft program so that Button B makes blocks appear under Steve?
-- Modify the Minecraft program to make different block types appear like TNT (46) or Melon (103)
+
+- Can you modify the micro:bit and Minecraft program so that button B makes blocks appear under Steve?
+- Modify the Minecraft program to make different block types appear, like TNT (46) or Melon (103).
 
