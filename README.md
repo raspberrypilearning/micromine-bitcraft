@@ -1,6 +1,6 @@
 # Micromine Bitcraft
 
-![](cover_learn.png)
+![](cover.png)
 
 You can use your micro:bit with some Python code to help (or sabotage!) Steve in Minecraft.
 You are going to connect your micro:bit’s pins to the Raspberry Pi GPIO pins using some cables and crocodile clips; programs on the micro:bit and Raspberry Pi will make Steve shake in Minecraft when the micro:bit is shaken, and will make blocks disappear when button A is pressed.
