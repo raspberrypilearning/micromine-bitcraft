@@ -6,8 +6,3 @@ To install the software open a terminal window and type:
 sudo apt-get update && sudo apt-get install mu -y
 ```
 
-You'll also need the Python Scratch library. You can install this by typing the following into the terminal:
-
-```bash
-sudo pip3 install --pre scratch
-```
