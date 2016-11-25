@@ -16,7 +16,7 @@ The micro:bit has a micro USB port that you can use to connect it to your Raspbe
 
 1. Connect your Raspberry Pi to the micro:bit using a USB A-to-micro-B cable, as shown below:
 
-	![usb setup](images/usb.png)
+	![usb setup](images/Micromine_Bitcraft_Diagram_1.png)
 
 1. You'll know that the micro:bit has connected to your Raspberry Pi, because a dialogue box like the one below should pop up:
 
@@ -81,7 +81,7 @@ Next, you will use jumper cables and crocodile clips to connect your micro:bit t
 1. Then repeat the steps above with GPIO 27 on the Raspberry Pi (which is next to GPIO 17), connecting it to pin 1 on the micro:bit.
 
 
-	![](images/microbit-pi-pins-connect.png)
+	![](images/Micromine_Bitcraft_Diagram_2.png)
 
 
 ## Shake Steve in Minecraft
