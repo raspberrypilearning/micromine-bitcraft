@@ -2,6 +2,7 @@
 
 ### Hardware
 
+* Raspberry Pi
 * micro:bit
 * usb-microusb
 * crocodile-clips
