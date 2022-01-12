@@ -1,7 +1,8 @@
 ---
 title: Micromine Bitcraft
 hero_image: images/banner.png
-description: Learn how to use your micro:bit to help (or sabotage!) Steve in Minecraft Pi
+description: Learn how to use your micro:bit to help (or sabotage!) Steve in Minecraft
+  Pi
 original_url: https://raspberrypi.org/learning/micromine-bitcraft
 theme: navy
 duration: 2
@@ -16,9 +17,10 @@ hardware: raspberry-pi, electronic-components, microbit
 software: python
 version: 3
 last_tested: 2017-01-01
-steps: 
+steps:
 - title: Introduction
 - title: What you will need
+  completion: engaged
 - title: Micromine bitcraft
 - title: Starting Mu
 - title: Connecting your micro:bit
@@ -26,5 +28,6 @@ steps:
 - title: Buttons and pins
 - title: Connect it to your Raspberry Pi
 - title: Shake Steve in Minecraft
+  completion: internal
 - title: 'Make blocks disappear '
 - title: What next?
